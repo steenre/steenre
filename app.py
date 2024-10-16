@@ -2,7 +2,7 @@ from flask import Flask,redirect,url_for,render_template,request,session,flash
 from datetime import timedelta
 
 # d = second
-d=timedelta(seconds=15)
+d=timedelta(minutes=1999999999999995)
 
 app = Flask(__name__)
 app.secret_key = 'hello'
